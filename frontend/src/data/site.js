@@ -1,11 +1,11 @@
 export const site = {
   name: 'Botanical Beauty',
-  tagline: 'Beauty, naturally.',
+  tagline: 'Our Beauty Catalogue.',
   description: 'Thoughtfully selected beauty essentials and professional treatments to make self-care feel special.',
   phone: '+254 791 002 178',
   email: 'winstoneonyango76@gmail.com',
   location: 'Nairobi, Kenya',
-  instagram: 'https://instagram.com/',
+  instagram: 'https://www.instagram.com/winstone_76/',
   whatsapp: import.meta.env.VITE_WHATSAPP_NUMBER || '254700000000',
 }
 

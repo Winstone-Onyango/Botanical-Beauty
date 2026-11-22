@@ -15,7 +15,7 @@ export function Layout() {
       <div className="container-shell flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
           <span className="grid h-10 w-10 place-items-center rounded-full bg-forest text-ivory"><Leaf size={20}/></span>
-          <span><span className="block font-display text-xl font-semibold text-forest">{site.name}</span><span className="text-[10px] uppercase tracking-[.25em] text-earth/70">Beauty, naturally</span></span>
+          <span><span className="block font-display text-xl font-semibold text-forest">{site.name}</span><span className="text-[10px] uppercase tracking-[.25em] text-earth/70">Our Beauty Catalogue</span></span>
         </Link>
         <nav className="hidden items-center gap-7 lg:flex">
           {links.map(([label, path]) => <NavLink key={path} to={path} className={({isActive}) => `nav-link ${isActive ? 'nav-active' : ''}`}>{label}</NavLink>)}
