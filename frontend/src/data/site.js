@@ -1,6 +1,6 @@
 export const site = {
   name: 'Botanical Beauty',
-  tagline: 'Our Beauty Catalogue.',
+  tagline: 'Catalogue.',
   description: 'Thoughtfully selected beauty essentials and professional treatments to make self-care feel special.',
   phone: '+254 791 002 178',
   email: 'winstoneonyango76@gmail.com',
